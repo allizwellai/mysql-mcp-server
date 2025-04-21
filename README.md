@@ -39,20 +39,12 @@ npm install mysql-mcp-server
 
 ```bash
 # Clone the repository
-git clone https://github.com/dpflucas/mysql-mcp-server.git
+git clone https://github.com/allizwellai/mysql-mcp-server.git
 cd mysql-mcp-server
 
 # Install dependencies and build
 npm install
 npm run build
-```
-
-#### Install via Smithery
-
-To install MySQL Database Access MCP Server for Claude AI automatically via [Smithery](https://smithery.ai/server/@dpflucas/mysql-mcp-server):
-
-```bash
-npx -y @smithery/cli install @dpflucas/mysql-mcp-server --client claude
 ```
 
 ### 2. Configure environment variables
